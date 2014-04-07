@@ -1,0 +1,59 @@
+<html>
+	<head>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/my_jquery_functions.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link type="text/css" rel="stylesheet" href="css/yourStyles.css" media="all"/>
+		<script type="text/javascript" src="js/jquery.checknet-1.6.min.js"></script>
+		<script type="text/javascript" src="js/jquery.blockUI.js"></script>
+
+	</head>
+
+	<body>
+		<p id="p1">
+			If you click on me, I will disappear.
+		</p>
+		<h2>If you click on me,xfdgaDG I will disappear.</h2>
+		<p id="test">
+			This is another paragraph.
+		</p>
+		<h2 class="test">This is a heading</h2>
+		<p class="test">
+			This is a paragraph.
+		</p>
+		<p class="test1">
+			This is a paragraph.
+		</p>
+		<p>
+			This is another paragraph.
+		</p>
+		<button id="button1" type="button">
+			Button1
+		</button>
+		<b> </b>
+		<button id="button2" type="button">
+			Click me
+		</button>
+		<b> </b>
+		<button id="button3" type="button">
+			Click me
+		</button>
+		<b> </b>
+		<h3 id="test3" >click Ajax</h3>
+		<button id="btn1" type="button">
+			hallo
+		</button>
+		<button id="button10" type="button">
+			button10
+		</button>
+		
+		<script type="text/javascript">
+			$.fn.checknet();
+			checknet.config.checkInterval = 1000;
+			checknet.config.warnMsg = "There is no connection!!";
+			
+		</script>
+	</body>
+
+</html>
